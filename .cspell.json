@@ -1,0 +1,34 @@
+{
+  "version": "0.2",
+  "gitignoreRoot": ".",
+  "useGitignore": true,
+  "dictionaries": [
+    "css",
+    "html",
+    "fonts",
+    "typescript",
+    "softwareTerms",
+    "companies",
+    "lorem-ipsum",
+    "node",
+    "npm",
+    "project-words"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./.vscode/project-words.txt",
+      "noSuggest": true
+    }
+  ],
+  "ignorePaths": [
+    "*package.json",
+    "*yarn.lock",
+    "bun.lockb",
+    "*pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "*.gitignore",
+    ".vscode"
+  ],
+  "ignoreRegExpList": ["Email", "Urls", "#[\\w-]*"]
+}

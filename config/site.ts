@@ -1,0 +1,68 @@
+export type SiteConfig = typeof siteConfig;
+
+export const siteConfig = {
+  name: "Learn With Uzury",
+  description: "",
+  slogan: "",
+  url: "https://learn.uzury.agency/",
+  logo: {
+    dark: "",
+    light: "",
+  },
+  links: {
+    github: "https://github.com/",
+  },
+  contacts: {
+    tel: ["+256-784330349"],
+    email: "",
+    tele: "+256784330349",
+    address: "Plot 851 Serumaga Road, Bukoto, Kampala, Uganda",
+  },
+};
+
+
+export const seoKeywords = [
+  "education technology",
+  "online learning",
+  "e-learning platforms",
+  "digital education",
+  "remote learning",
+  "virtual classrooms",
+  "adaptive learning",
+  "personalized learning",
+  "educational technology trends",
+  "future of work",
+  "workplace automation",
+  "remote work",
+  "digital skills",
+  "automation technology",
+  "gig economy",
+  "telecommuting",
+  "workplace flexibility",
+  "research",
+  "academic research",
+  "scientific research",
+  "research studies",
+  "research papers",
+  "research methodologies",
+  "research findings",
+  "Edtech",
+  "Atuhaire Collins Benda",
+  "Tech blog",
+  "Andrew Tugume", "educational apps",
+  "learning management systems",
+  "online courses",
+  "distance education",
+  "blended learning",
+  "virtual reality in education",
+  "artificial intelligence in education",
+  "STEM education",
+  "professional development",
+  "digital transformation",
+  "workforce skills",
+  "job automation",
+  "remote collaboration",
+  "flexible work arrangements",
+  "work-life balance",
+  "innovation research"
+]
