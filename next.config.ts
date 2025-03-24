@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import './env'
 
 const nextConfig: NextConfig = {
   images: {
@@ -6,11 +7,10 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'img.clerk.com',
+        hostname: 'res.cloudinary.com',
       },
     ],
   },
-  
 }
 
 export default nextConfig;
