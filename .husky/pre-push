@@ -1,0 +1,7 @@
+# File: "pre-push"
+
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Check branch name
+npx validate-branch-name
