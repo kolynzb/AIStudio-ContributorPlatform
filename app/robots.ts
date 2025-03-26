@@ -1,8 +1,8 @@
-import { siteConfig } from "@/config/site";
-import type { MetadataRoute } from "next";
+import { siteConfig } from "@/core/config/site"
+import type { MetadataRoute } from "next"
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = siteConfig.url;
+  const baseUrl = siteConfig.url
 
   return {
     rules: {
@@ -11,5 +11,5 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ["/admin", "/privacy-policy", "/maintenance"],
     },
     sitemap: `${baseUrl}sitemap.xml`,
-  };
+  }
 }

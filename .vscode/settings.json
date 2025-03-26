@@ -4,6 +4,6 @@
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit",
-    "source.organizeImports.biome": "explicit"
+    "source.organizeImports.biome": "always"
   }
 }

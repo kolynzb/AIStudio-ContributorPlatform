@@ -1,32 +1,15 @@
 # Resources
+
 This file contains the useful links used during the creation of this repository.
 
 ## Useful Links
 
-## Resources
-
-    react query
-    redux toolkit
+- [Cursor Rules Directory](https://cursor.directory/nextjs-react-redux-typescript-cursor-rules)
 
 
-- linters
- - vercel Linters
- - Configure prettier and eslint
-- opensource license
-- read me 
-- Docker files and pipelines/workflows
-
-- structure 
-- global state solution: redux
-- Preparation for vibe coding
-    - claude.md 
-    - Cursor rules
-- what is instrumentation
 ---
 Frontend at scale
 Large Apps
-
-
 ---
 
 `components/` are all reusable components organized by features or domains.
@@ -73,6 +56,7 @@ Large Apps
       /services        # User-specific services
       /types           # User-specific types
       /utils           # User-specific utilities
+      /slices          # User-specific state // really not sure about it
     /products
       /components
       /hooks

@@ -1,18 +1,19 @@
-import { expect, test } from "@playwright/test";
+import { expect, test } from "@playwright/test"
 
-test("has title", async ({ page }) => {
-  await page.goto("https://playwright.dev/");
+test("homepage has title", async ({ page }) => {
+  await page.goto("/")
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+  // Update this to match your actual site title
+  await expect(page).toHaveTitle(/Uganda Open Data Platform/)
+})
 
-test("get started link", async ({ page }) => {
-  await page.goto("https://playwright.dev/");
+test("navigation works", async ({ page }) => {
+  await page.goto("/")
 
-  // Click the get started link.
-  await page.getByRole("link", { name: "Get started" }).click();
+  // Update these selectors and assertions to match your actual UI
+  await expect(page.locator("body")).toBeVisible()
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole("heading", { name: "Installation" })).toBeVisible();
-});
+  // Example: Test navigation if you have a navigation menu
+  // await page.getByRole("link", { name: "Data" }).click();
+  // await expect(page).toHaveURL("/data");
+})

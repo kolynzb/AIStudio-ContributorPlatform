@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { Providers } from "@/app/providers";
-import { seoKeywords, siteConfig } from "@/config/site";
-import { poppins } from "./font";
+import type { Metadata } from "next"
+import "./globals.css"
+import { Providers } from "@/app/providers"
+import { seoKeywords, siteConfig } from "@/core/config/site"
+import { poppins } from "./font"
 
 export const metadata: Metadata = {
   title: {
@@ -59,12 +59,12 @@ export const metadata: Metadata = {
     },
   ],
   manifest: "/favicon/site.webmanifest",
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -72,5 +72,5 @@ export default function RootLayout({
         <Providers>{children}</Providers>
       </body>
     </html>
-  );
+  )
 }

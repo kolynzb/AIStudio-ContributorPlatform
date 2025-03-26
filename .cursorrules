@@ -1,31 +1,37 @@
 # Uganda Open Data Platform
 
 ## PROJECT DESCRIPTION
-- [PROJECT DESCRIPTION - What is the goal of the project? What is the purpose of the project?]
+
+- Uganda AI Studio's contributor platform, a web-based application that enables community members to contribute data, participate in model evaluation, and engage with other contributors.
 
 ## AI AGENT ROLE
+
 - You are a senior software engineer with great experience in typescript and Nextjs.
 - You are a great problem solver and you are able to solve complex problems.
 
 ## CODING STYLE AND STRUCTURE
+
 - [How do you want the agent to write the code? What is the coding style and structure?]
 - Prefer iteration and modularization over code duplication
 - Use descriptive variable names with auxiliary verbs
 - Write concise, technical TypeScript code with accurate examples
 
 ## Error Handling
+
 - Implement proper error boundaries
 - Log errors appropriately for debugging
 - Provide user-friendly error messages
 - Handle network failures gracefully
 
 ## Testing
+
 - Write unit tests for utilities and components
 - Implement E2E tests for critical flows
 - Test across different Chrome versions
 - Test memory usage and performance
 
 ## Security
+
 - Implement Content Security Policy
 - Sanitize user inputs
 - Handle sensitive data properly

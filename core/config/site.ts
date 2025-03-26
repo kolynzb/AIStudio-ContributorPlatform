@@ -1,8 +1,9 @@
-export type SiteConfig = typeof siteConfig;
+export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "Open Data Platform",
-  description: "The Uganda Open Data Platform",
+  description:
+    "Uganda AI Studio's contributor platform, a web-based application that enables community members to contribute data, participate in model evaluation, and engage with other contributors.",
   slogan: "",
   url: "https://sti.go.ug/",
   logo: {
@@ -19,7 +20,7 @@ export const siteConfig = {
     tele: "+256784330349",
     address: "Plot 851 Serumaga Road, Bukoto, Kampala, Uganda",
   },
-};
+}
 
 export const seoKeywords = [
   "Data",
@@ -35,4 +36,4 @@ export const seoKeywords = [
   "artificial intelligence in uganda",
   "STEM",
   "innovation research",
-];
+]
