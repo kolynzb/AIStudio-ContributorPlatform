@@ -34,7 +34,13 @@
       "style": {
         "noNonNullAssertion": "off",
         "noParameterAssign": "warn",
-        "useImportType": "error"
+        "useImportType": "error",
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "filenameCases": ["kebab-case"]
+          }
+        }
       },
       "complexity": {
         "useArrowFunction": "error"
@@ -82,7 +88,7 @@
       "bracketSpacing": true,
       "jsxQuoteStyle": "double",
       "quoteProperties": "asNeeded",
-      "semicolons": "always",
+      "semicolons": "asNeeded",
       "trailingCommas": "all"
     }
   },
