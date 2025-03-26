@@ -10,7 +10,22 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": []
+    "ignore": [
+      "node_modules",
+      ".next",
+      "dist",
+      "build",
+      "coverage",
+      ".turbo",
+      ".vercel",
+      "public",
+      ".git",
+      ".cache",
+      "out",
+      ".vscode",
+      ".husky",
+      ".github"
+    ]
   },
   "linter": {
     "enabled": true,
@@ -67,7 +82,7 @@
       "bracketSpacing": true,
       "jsxQuoteStyle": "double",
       "quoteProperties": "asNeeded",
-      "semicolons": "asNeeded",
+      "semicolons": "always",
       "trailingCommas": "all"
     }
   },

@@ -1,0 +1,36 @@
+{
+  "projectName": "Open Data Platform",
+  "projectOwner": "STI",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "kolynxb",
+      "name": "Collins Benda Atuhaire",
+      "avatar_url": "https://lh3.googleusercontent.com/ogw/AF2bZyiaf3xd0gRtOXDIn-h-1QKkS0mneb2v0STdHnEObAokugM=s64-c-mo",
+      "profile": "https://collinsbenda.com/",
+      "contributions": ["code", "infra", "design", "docs"]
+    },
+    {
+      "login": "jjablonski-it",
+      "name": "Johnroy Nageeso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51968772?v=4",
+      "profile": "https://github.com/johnroy",
+      "contributions": ["code", "docs"]
+    },
+    {
+      "login": "",
+      "name": "Tuka Catherine",
+      "avatar_url": "https://media.licdn.com/dms/image/v2/D4E03AQFxtXq4qMZ8sw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731516866953?e=1748476800&v=beta&t=elpGTd4d0SkNI4Xl3NAbtTRYb6nl0mZOgqi8JoJYkFI",
+      "profile": "https://www.linkedin.com/in/catherine-tuka/",
+      "contributions": ["design"]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true,
+  "commitType": "docs"
+}

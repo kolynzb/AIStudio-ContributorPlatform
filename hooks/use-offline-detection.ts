@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export function useOfflineDetection() {
@@ -12,13 +12,10 @@ export function useOfflineDetection() {
     // Set up event listeners
     const handleOffline = () => {
       setIsOffline(true);
-      toast.error(
-        "You are offline. Changes will be saved when you reconnect.",
-        {
-          id: "offline-warning",
-          duration: 5000,
-        }
-      );
+      toast.error("You are offline. Changes will be saved when you reconnect.", {
+        id: "offline-warning",
+        duration: 5000,
+      });
     };
 
     const handleOnline = () => {

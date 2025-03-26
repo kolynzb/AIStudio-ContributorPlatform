@@ -1,20 +1,20 @@
-"use client"
+"use client";
 
-import { IconDeviceDesktop2, IconMoon, IconSun } from "justd-icons"
-import { useTheme } from "next-themes"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
+import { IconDeviceDesktop2, IconMoon, IconSun } from "justd-icons";
+import { useTheme } from "next-themes";
 
 export function ThemeSwitcher({
   shape = "square",
   intent = "outline",
   ...props
 }: React.ComponentProps<typeof Button>) {
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme();
 
   const toggleTheme = () => {
-    const nextTheme = theme === "light" ? "dark" : theme === "dark" ? "system" : "light"
-    setTheme(nextTheme)
-  }
+    const nextTheme = theme === "light" ? "dark" : theme === "dark" ? "system" : "light";
+    setTheme(nextTheme);
+  };
 
   return (
     <Button
@@ -27,5 +27,5 @@ export function ThemeSwitcher({
     >
       {theme === "light" ? <IconSun /> : theme === "dark" ? <IconMoon /> : <IconDeviceDesktop2 />}
     </Button>
-  )
+  );
 }

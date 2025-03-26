@@ -1,2 +1,2 @@
-export * from './primitive'
-export * from './button'
+export * from "./primitive";
+export * from "./button";
